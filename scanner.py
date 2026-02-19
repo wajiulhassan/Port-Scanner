@@ -53,10 +53,11 @@ class PortScanner:
     
     def _setup_logging(self):
         """Setup logging configuration."""
-        Path(".gitignore").mkdir(exist_ok=True)
+        # Create logs directory if it doesn't exist
+        Path("logs").mkdir(exist_ok=True)
         
         # Configure logging
-        log_filename = f".gitignore/scan_{self.target}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        log_filename = f"logs/scan_{self.target}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
         
         logging.basicConfig(
             level=logging.INFO if self.verbose else logging.WARNING,
@@ -266,10 +267,10 @@ class PortScanner:
     def _setup_logging(self):
         """Setup logging configuration."""
         # Create logs directory if it doesn't exist
-        Path(".gitignore").mkdir(exist_ok=True)
+        Path("logs").mkdir(exist_ok=True)
         
         # Configure logging
-        log_filename = f".gitignore/scan_{self.target}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        log_filename = f"logs/scan_{self.target}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
         
         logging.basicConfig(
             level=logging.INFO if self.verbose else logging.WARNING,

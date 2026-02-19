@@ -2,5 +2,6 @@
 matplotlib
 numpy
 ttkbootstrap
+schedule
 
 # The core scanner itself uses only the standard library

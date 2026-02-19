@@ -1,0 +1,6 @@
+# External dependencies for GUI and visualization
+matplotlib
+numpy
+ttkbootstrap
+
+# The core scanner itself uses only the standard library

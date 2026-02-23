@@ -172,7 +172,7 @@ Port Scanner/
 ├── Requirements.txt        # Python dependencies
 ├── verify.py               # Setup verification
 ├── ReadMe.md               # This file
-├── FEATURES.md             # Detailed feature list
+
 ```
 
 ---

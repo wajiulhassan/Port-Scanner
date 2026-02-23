@@ -1,0 +1,7 @@
+"""
+Professional TCP Port Scanner Package
+"""
+
+__version__ = "1.0.0"
+__author__ = "Your Name"
+__description__ = "A professional multi-threaded TCP port scanner"
